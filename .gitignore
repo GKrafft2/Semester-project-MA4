@@ -1,3 +1,4 @@
 *.bag
 *.mp4
 /keyword spotting/google_speech_recognition_v2/
+/keyword spotting/triplet_loss_kws/
