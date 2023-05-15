@@ -12,7 +12,7 @@ from scipy.io.wavfile import write
 classifier = pipeline("audio-classification", model="superb/wav2vec2-base-superb-ks") # create kws spotter model
 
 # constants for audio input
-DEVICE = 17 #check this before in a terminal by executing "python3 search_auido_devices.py"
+DEVICE = 27 #check this before in a terminal by executing "python3 search_auido_devices.py"
 CHANNELS = 3
 RATE = 16000
 
@@ -57,6 +57,6 @@ if __name__ == '__main__':
             else:
                 doa = "center or unidentified"
             
-            pub_audio.publish(f"Keyword: {keyword}, DOA: {doa}")
+            pub_audio.publish(f"{keyword}#{doa}")
 
 
