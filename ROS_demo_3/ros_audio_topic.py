@@ -53,7 +53,7 @@ if __name__ == '__main__':
     rospy.init_node('audio_process', anonymous=True)
     pub_audio = rospy.Publisher('audio_info_topic', String, queue_size=10)
 
-    # create everything related to the audio singal processing 
+    # create everything related to the custom kws model
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     feature_extractor_checkpoint = "facebook/wav2vec2-base"
     audio_classification_checkpoint = "kws_model/checkpoint-3315"
