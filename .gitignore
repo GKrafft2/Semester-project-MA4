@@ -5,5 +5,13 @@
 /keyword spotting/wav2vec2-base-finetuned-ks
 /keyword spotting/wav2vec2-base-finetuned-ks-32
 /action recognition pipeline/hand poses/hands
+/action recognition pipeline/hand poses/hands_old
+/action recognition pipeline/hand poses/hands_test
 /action recognition pipeline/hand poses/rps_data_sample
+/action recognition pipeline/hand poses/exported_model
+/action recognition pipeline/hand poses/exported_model_2
+/action recognition pipeline/hand poses/exported_model_3
+/action recognition pipeline/hand poses/exported_model_4
+/action recognition pipeline/hand poses/exported_model_test
+
 /ROS_demo_3/kws_model

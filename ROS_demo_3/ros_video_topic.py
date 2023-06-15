@@ -86,6 +86,7 @@ def classify_hand(mp_image):
         return prediction, confidence
 
 
+
 if __name__ == '__main__':
     ### CONSTANTS ###
     DETECTION = True
